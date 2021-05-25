@@ -1,0 +1,1391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\mw\hardware_projects\cubieboard-lora-gateway-lrwan-gs_hf1\cubieboard-lora-gateway-lrwan-gs_hf1.kicad_sch</source>
+    <date>25/05/2021 20:48:00</date>
+    <tool>Eeschema (5.99.0-10624-g2131a44889)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Cubieboard 1 carrier board with lora gateway - lrwan gs hf1</title>
+        <company>MWLinux</company>
+        <rev>V1.0</rev>
+        <date>2021-05-25</date>
+        <source>cubieboard-lora-gateway-lrwan-gs_hf1.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Minipci Module/" tstamps="/a8f209b4-70b4-43e1-9832-45007a5b4248/">
+      <title_block>
+        <title>Minipci Module</title>
+        <company>MWLinux</company>
+        <rev>V1.0</rev>
+        <date>2021-05-25</date>
+        <source>minipci_module.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="Con1">
+      <value>Header_Socket_2x26</value>
+      <footprint>Header_Socket_2mm:Header_Socket_2x26pin</footprint>
+      <datasheet>/home/mw/kicad_library/Schematic/Connectors/Header_Socket_2mm/Components_Documentation/DS1026-05.pdf</datasheet>
+      <libsource lib="Header_Socket_2mm" part="Header_Socket_2x26" description="Header Socket 2x26pin pitch 2mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cubieboard-lora-gateway-lrwan-gs_hf1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1b39767b-175d-4374-b9cc-5aee2b29d7bf</tstamps>
+    </comp>
+    <comp ref="Con2">
+      <value>Header_Socket_2x26</value>
+      <footprint>Header_Socket_2mm:Header_Socket_2x26pin</footprint>
+      <datasheet>/home/mw/kicad_library/Schematic/Connectors/Header_Socket_2mm/Components_Documentation/DS1026-05.pdf</datasheet>
+      <libsource lib="Header_Socket_2mm" part="Header_Socket_2x26" description="Header Socket 2x26pin pitch 2mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cubieboard-lora-gateway-lrwan-gs_hf1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0a8ef723-af46-4d95-8992-688978990b3a</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>KPG-1608SURKC-T</value>
+      <footprint>Diodes:LED_KPG-1608SURKC-T</footprint>
+      <datasheet>https://www.tme.eu/Document/d1801a08836278504c2ab877cf18852c/KPG-1608SURKC-T.pdf</datasheet>
+      <fields>
+        <field name="Developer">WP</field>
+        <field name="LCSC Part # (optional)">C192315</field>
+        <field name="Manufacturer">	KINGBRIGHT ELECTRONIC</field>
+        <field name="Manufacturer Part Number">KPG-1608SURKC-T</field>
+        <field name="Package">0603</field>
+        <field name="Price@1000pcs">0,1995</field>
+        <field name="Price@1pc">0,4132</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">KPG-1608SURKC-T</field>
+        <field name="URL">https://www.tme.eu/pl/details/kpg-1608surkc-t/diody-led-smd-kolorowe/kingbright-electronic/</field>
+      </fields>
+      <libsource lib="Diodes" part="KPG-1608SURKC-T" description="Red LED 0603 630nm 20mA 200...350mcd 120° -40°C to +85°C"/>
+      <property name="Manufacturer" value="&#x9;KINGBRIGHT ELECTRONIC"/>
+      <property name="Manufacturer Part Number" value="KPG-1608SURKC-T"/>
+      <property name="Supplier" value="TME"/>
+      <property name="Supplier Part Number" value="KPG-1608SURKC-T"/>
+      <property name="URL" value="https://www.tme.eu/pl/details/kpg-1608surkc-t/diody-led-smd-kolorowe/kingbright-electronic/"/>
+      <property name="Price@1pc" value="0,4132"/>
+      <property name="Price@1000pcs" value="0,1995"/>
+      <property name="Developer" value="WP"/>
+      <property name="Package" value="0603"/>
+      <property name="LCSC Part # (optional)" value="C192315"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cubieboard-lora-gateway-lrwan-gs_hf1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e37b4c42-93f0-4aab-b3b8-fa26f27e8455</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>KPT-1608CGCK</value>
+      <footprint>Diodes:LED_KPT-1608CGCK</footprint>
+      <datasheet>https://www.tme.eu/Document/a39d324b494aca9bed634649dc83966d/kp-1608cgck.pdf</datasheet>
+      <fields>
+        <field name="Developer">WP</field>
+        <field name="LCSC Part # (optional)">C192316</field>
+        <field name="Manufacturer">	KINGBRIGHT ELECTRONIC</field>
+        <field name="Manufacturer Part Number">KP-1608CGCK</field>
+        <field name="Package">0603</field>
+        <field name="Price@1000pcs">0,16283</field>
+        <field name="Price@1pc">0,47368</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">KP-1608CGCK</field>
+        <field name="URL">https://www.tme.eu/pl/details/kp-1608cgck/diody-led-smd-kolorowe/kingbright-electronic/</field>
+      </fields>
+      <libsource lib="Diodes" part="KPT-1608CGCK" description="Green LED 0603 570nm 20mA 10...40mcd 120° -40°C to +85°C"/>
+      <property name="Manufacturer" value="&#x9;KINGBRIGHT ELECTRONIC"/>
+      <property name="Manufacturer Part Number" value="KP-1608CGCK"/>
+      <property name="Supplier" value="TME"/>
+      <property name="Supplier Part Number" value="KP-1608CGCK"/>
+      <property name="URL" value="https://www.tme.eu/pl/details/kp-1608cgck/diody-led-smd-kolorowe/kingbright-electronic/"/>
+      <property name="Price@1pc" value="0,47368"/>
+      <property name="Price@1000pcs" value="0,16283"/>
+      <property name="Developer" value="WP"/>
+      <property name="Package" value="0603"/>
+      <property name="LCSC Part # (optional)" value="C192316"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cubieboard-lora-gateway-lrwan-gs_hf1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8131986e-e21d-44a6-9204-ffa8d07acdc7</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>KPT-1608CGCK</value>
+      <footprint>Diodes:LED_KPT-1608CGCK</footprint>
+      <datasheet>https://www.tme.eu/Document/a39d324b494aca9bed634649dc83966d/kp-1608cgck.pdf</datasheet>
+      <fields>
+        <field name="Developer">WP</field>
+        <field name="LCSC Part # (optional)">C192316</field>
+        <field name="Manufacturer">	KINGBRIGHT ELECTRONIC</field>
+        <field name="Manufacturer Part Number">KP-1608CGCK</field>
+        <field name="Package">0603</field>
+        <field name="Price@1000pcs">0,16283</field>
+        <field name="Price@1pc">0,47368</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">KP-1608CGCK</field>
+        <field name="URL">https://www.tme.eu/pl/details/kp-1608cgck/diody-led-smd-kolorowe/kingbright-electronic/</field>
+      </fields>
+      <libsource lib="Diodes" part="KPT-1608CGCK" description="Green LED 0603 570nm 20mA 10...40mcd 120° -40°C to +85°C"/>
+      <property name="Manufacturer" value="&#x9;KINGBRIGHT ELECTRONIC"/>
+      <property name="Manufacturer Part Number" value="KP-1608CGCK"/>
+      <property name="Supplier" value="TME"/>
+      <property name="Supplier Part Number" value="KP-1608CGCK"/>
+      <property name="URL" value="https://www.tme.eu/pl/details/kp-1608cgck/diody-led-smd-kolorowe/kingbright-electronic/"/>
+      <property name="Price@1pc" value="0,47368"/>
+      <property name="Price@1000pcs" value="0,16283"/>
+      <property name="Developer" value="WP"/>
+      <property name="Package" value="0603"/>
+      <property name="LCSC Part # (optional)" value="C192316"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cubieboard-lora-gateway-lrwan-gs_hf1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c28695fa-624b-486e-b6d9-344214d8517b</tstamps>
+    </comp>
+    <comp ref="MH1">
+      <value>MW_M2_Grounded</value>
+      <footprint>Mounting_Holes:Mounting_Hole_M2_Grounded</footprint>
+      <libsource lib="Mounting_Holes" part="Mounting_Hole_M2_Grounded" description="Mounting Hole M3 2.3mm Hole Size"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cubieboard-lora-gateway-lrwan-gs_hf1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d9513b56-c082-4849-bbbc-5f78f09939c5</tstamps>
+    </comp>
+    <comp ref="MH2">
+      <value>MW_M2_Grounded</value>
+      <footprint>Mounting_Holes:Mounting_Hole_M2_Grounded</footprint>
+      <libsource lib="Mounting_Holes" part="Mounting_Hole_M2_Grounded" description="Mounting Hole M3 2.3mm Hole Size"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cubieboard-lora-gateway-lrwan-gs_hf1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0d4a56ca-7616-4aca-ab2c-6e1ecb41beb8</tstamps>
+    </comp>
+    <comp ref="MH3">
+      <value>MW_M2_Grounded</value>
+      <footprint>Mounting_Holes:Mounting_Hole_M2_Grounded</footprint>
+      <libsource lib="Mounting_Holes" part="Mounting_Hole_M2_Grounded" description="Mounting Hole M3 2.3mm Hole Size"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cubieboard-lora-gateway-lrwan-gs_hf1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>73a9dc59-29fe-47b6-ab72-757cf347268f</tstamps>
+    </comp>
+    <comp ref="MH4">
+      <value>MW_M2_Grounded</value>
+      <footprint>Mounting_Holes:Mounting_Hole_M2_Grounded</footprint>
+      <libsource lib="Mounting_Holes" part="Mounting_Hole_M2_Grounded" description="Mounting Hole M3 2.3mm Hole Size"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cubieboard-lora-gateway-lrwan-gs_hf1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00e71847-bbe6-4db3-b59e-fea8334dc327</tstamps>
+    </comp>
+    <comp ref="P1">
+      <value>Power_Sel</value>
+      <footprint>Goldpin:Goldpin_3_2_54mm</footprint>
+      <datasheet>https://www.tme.eu/Document/cc301e58a5da78cb543a94b5a5b7f06a/DS1021.pdf</datasheet>
+      <fields>
+        <field name="Developer">MW</field>
+        <field name="Manufacturer">CONNFLY</field>
+        <field name="Manufacturer Part Number">DS1021-1*3SF1-1</field>
+        <field name="Package">Goldpin 1x3x2.54mm</field>
+        <field name="Price@1000pcs">0,05850</field>
+        <field name="Price@1pc">0,09751</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">ZL201-03G</field>
+        <field name="URL">https://www.tme.eu/pl/en/details/zl201-03g/pin-headers/connfly/ds1021-1-3sf1-1/</field>
+      </fields>
+      <libsource lib="Goldpin_2_54mm" part="GOLDPIN_3_2_54MM" description="Pin header / pin strips male PIN: 3 straight 2.54mm THT 1x3"/>
+      <property name="Manufacturer" value="CONNFLY"/>
+      <property name="Manufacturer Part Number" value="DS1021-1*3SF1-1"/>
+      <property name="Supplier" value="TME"/>
+      <property name="Supplier Part Number" value="ZL201-03G"/>
+      <property name="URL" value="https://www.tme.eu/pl/en/details/zl201-03g/pin-headers/connfly/ds1021-1-3sf1-1/"/>
+      <property name="Price@1pc" value="0,09751"/>
+      <property name="Price@1000pcs" value="0,05850"/>
+      <property name="Developer" value="MW"/>
+      <property name="Package" value="Goldpin 1x3x2.54mm"/>
+      <property name="LCSC Part #(optional)" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cubieboard-lora-gateway-lrwan-gs_hf1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8c691cb0-0100-4d0b-941d-973057df4e12</tstamps>
+    </comp>
+    <comp ref="P2">
+      <value>Band_Sel1</value>
+      <footprint>Goldpin:Goldpin_3_2_54mm</footprint>
+      <datasheet>https://www.tme.eu/Document/cc301e58a5da78cb543a94b5a5b7f06a/DS1021.pdf</datasheet>
+      <fields>
+        <field name="Developer">MW</field>
+        <field name="Manufacturer">CONNFLY</field>
+        <field name="Manufacturer Part Number">DS1021-1*3SF1-1</field>
+        <field name="Package">Goldpin 1x3x2.54mm</field>
+        <field name="Price@1000pcs">0,05850</field>
+        <field name="Price@1pc">0,09751</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">ZL201-03G</field>
+        <field name="URL">https://www.tme.eu/pl/en/details/zl201-03g/pin-headers/connfly/ds1021-1-3sf1-1/</field>
+      </fields>
+      <libsource lib="Goldpin_2_54mm" part="GOLDPIN_3_2_54MM" description="Pin header / pin strips male PIN: 3 straight 2.54mm THT 1x3"/>
+      <property name="Manufacturer" value="CONNFLY"/>
+      <property name="Manufacturer Part Number" value="DS1021-1*3SF1-1"/>
+      <property name="Supplier" value="TME"/>
+      <property name="Supplier Part Number" value="ZL201-03G"/>
+      <property name="URL" value="https://www.tme.eu/pl/en/details/zl201-03g/pin-headers/connfly/ds1021-1-3sf1-1/"/>
+      <property name="Price@1pc" value="0,09751"/>
+      <property name="Price@1000pcs" value="0,05850"/>
+      <property name="Developer" value="MW"/>
+      <property name="Package" value="Goldpin 1x3x2.54mm"/>
+      <property name="LCSC Part #(optional)" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cubieboard-lora-gateway-lrwan-gs_hf1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9fb853f0-a23b-47f4-9745-22e339efdfaf</tstamps>
+    </comp>
+    <comp ref="P3">
+      <value>Band_Sel2</value>
+      <footprint>Goldpin:Goldpin_3_2_54mm</footprint>
+      <datasheet>https://www.tme.eu/Document/cc301e58a5da78cb543a94b5a5b7f06a/DS1021.pdf</datasheet>
+      <fields>
+        <field name="Developer">MW</field>
+        <field name="Manufacturer">CONNFLY</field>
+        <field name="Manufacturer Part Number">DS1021-1*3SF1-1</field>
+        <field name="Package">Goldpin 1x3x2.54mm</field>
+        <field name="Price@1000pcs">0,05850</field>
+        <field name="Price@1pc">0,09751</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">ZL201-03G</field>
+        <field name="URL">https://www.tme.eu/pl/en/details/zl201-03g/pin-headers/connfly/ds1021-1-3sf1-1/</field>
+      </fields>
+      <libsource lib="Goldpin_2_54mm" part="GOLDPIN_3_2_54MM" description="Pin header / pin strips male PIN: 3 straight 2.54mm THT 1x3"/>
+      <property name="Manufacturer" value="CONNFLY"/>
+      <property name="Manufacturer Part Number" value="DS1021-1*3SF1-1"/>
+      <property name="Supplier" value="TME"/>
+      <property name="Supplier Part Number" value="ZL201-03G"/>
+      <property name="URL" value="https://www.tme.eu/pl/en/details/zl201-03g/pin-headers/connfly/ds1021-1-3sf1-1/"/>
+      <property name="Price@1pc" value="0,09751"/>
+      <property name="Price@1000pcs" value="0,05850"/>
+      <property name="Developer" value="MW"/>
+      <property name="Package" value="Goldpin 1x3x2.54mm"/>
+      <property name="LCSC Part #(optional)" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cubieboard-lora-gateway-lrwan-gs_hf1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fb8ef021-fb04-41c4-bac4-8b7f96fe24ff</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>220R</value>
+      <footprint>Resistor_Smd_0603:220R_0603</footprint>
+      <datasheet>https://www.tme.eu/Document/ec37243ca557adb02ebafc5c1ab83104/CQ%20datasheet.pdf</datasheet>
+      <fields>
+        <field name="Developer">MW</field>
+        <field name="LCSC Part #(optional)">C103414</field>
+        <field name="Manufacturer">Royal Ohm</field>
+        <field name="Manufacturer Part Number">CQ03SAF2203T5E</field>
+        <field name="Package">0603</field>
+        <field name="Price@1000pcs">0,03414</field>
+        <field name="Price@1pc">0,07305</field>
+        <field name="Supplier">Tme</field>
+        <field name="Supplier Part Number">CQ0603-220K-1%</field>
+        <field name="URL">https://www.tme.eu/pl/details/cq0603-220k-1%25/rezystory-smd-0603/royal-ohm/cq03saf2203t5e/</field>
+      </fields>
+      <libsource lib="Resistors_Smd0603" part="220R" description="220Ω 0,1W ±1% -55...155°C"/>
+      <property name="Manufacturer" value="Royal Ohm"/>
+      <property name="Manufacturer Part Number" value="CQ03SAF2203T5E"/>
+      <property name="Supplier" value="Tme"/>
+      <property name="Supplier Part Number" value="CQ0603-220K-1%"/>
+      <property name="URL" value="https://www.tme.eu/pl/details/cq0603-220k-1%25/rezystory-smd-0603/royal-ohm/cq03saf2203t5e/"/>
+      <property name="Price@1pc" value="0,07305"/>
+      <property name="Price@1000pcs" value="0,03414"/>
+      <property name="Developer" value="MW"/>
+      <property name="Package" value="0603"/>
+      <property name="LCSC Part #(optional)" value="C103414"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cubieboard-lora-gateway-lrwan-gs_hf1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9033080d-ba42-4f0c-818a-adac13409deb</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>220R</value>
+      <footprint>Resistor_Smd_0603:220R_0603</footprint>
+      <datasheet>https://www.tme.eu/Document/ec37243ca557adb02ebafc5c1ab83104/CQ%20datasheet.pdf</datasheet>
+      <fields>
+        <field name="Developer">MW</field>
+        <field name="LCSC Part #(optional)">C103414</field>
+        <field name="Manufacturer">Royal Ohm</field>
+        <field name="Manufacturer Part Number">CQ03SAF2203T5E</field>
+        <field name="Package">0603</field>
+        <field name="Price@1000pcs">0,03414</field>
+        <field name="Price@1pc">0,07305</field>
+        <field name="Supplier">Tme</field>
+        <field name="Supplier Part Number">CQ0603-220K-1%</field>
+        <field name="URL">https://www.tme.eu/pl/details/cq0603-220k-1%25/rezystory-smd-0603/royal-ohm/cq03saf2203t5e/</field>
+      </fields>
+      <libsource lib="Resistors_Smd0603" part="220R" description="220Ω 0,1W ±1% -55...155°C"/>
+      <property name="Manufacturer" value="Royal Ohm"/>
+      <property name="Manufacturer Part Number" value="CQ03SAF2203T5E"/>
+      <property name="Supplier" value="Tme"/>
+      <property name="Supplier Part Number" value="CQ0603-220K-1%"/>
+      <property name="URL" value="https://www.tme.eu/pl/details/cq0603-220k-1%25/rezystory-smd-0603/royal-ohm/cq03saf2203t5e/"/>
+      <property name="Price@1pc" value="0,07305"/>
+      <property name="Price@1000pcs" value="0,03414"/>
+      <property name="Developer" value="MW"/>
+      <property name="Package" value="0603"/>
+      <property name="LCSC Part #(optional)" value="C103414"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cubieboard-lora-gateway-lrwan-gs_hf1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>290df503-6f63-40eb-a7ff-23fb552bbc21</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>220R</value>
+      <footprint>Resistor_Smd_0603:220R_0603</footprint>
+      <datasheet>https://www.tme.eu/Document/ec37243ca557adb02ebafc5c1ab83104/CQ%20datasheet.pdf</datasheet>
+      <fields>
+        <field name="Developer">MW</field>
+        <field name="LCSC Part #(optional)">C103414</field>
+        <field name="Manufacturer">Royal Ohm</field>
+        <field name="Manufacturer Part Number">CQ03SAF2203T5E</field>
+        <field name="Package">0603</field>
+        <field name="Price@1000pcs">0,03414</field>
+        <field name="Price@1pc">0,07305</field>
+        <field name="Supplier">Tme</field>
+        <field name="Supplier Part Number">CQ0603-220K-1%</field>
+        <field name="URL">https://www.tme.eu/pl/details/cq0603-220k-1%25/rezystory-smd-0603/royal-ohm/cq03saf2203t5e/</field>
+      </fields>
+      <libsource lib="Resistors_Smd0603" part="220R" description="220Ω 0,1W ±1% -55...155°C"/>
+      <property name="Manufacturer" value="Royal Ohm"/>
+      <property name="Manufacturer Part Number" value="CQ03SAF2203T5E"/>
+      <property name="Supplier" value="Tme"/>
+      <property name="Supplier Part Number" value="CQ0603-220K-1%"/>
+      <property name="URL" value="https://www.tme.eu/pl/details/cq0603-220k-1%25/rezystory-smd-0603/royal-ohm/cq03saf2203t5e/"/>
+      <property name="Price@1pc" value="0,07305"/>
+      <property name="Price@1000pcs" value="0,03414"/>
+      <property name="Developer" value="MW"/>
+      <property name="Package" value="0603"/>
+      <property name="LCSC Part #(optional)" value="C103414"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cubieboard-lora-gateway-lrwan-gs_hf1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>16e185d2-2623-41c4-90c5-c63c54aa7b68</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>LRWAN_GS_HF1</value>
+      <footprint>Shields:LRWAN_GS_HF1</footprint>
+      <datasheet>https://usermanual.wiki/STMicroelectronicsS/GSHF1/html</datasheet>
+      <fields>
+        <field name="Developer">MW</field>
+        <field name="Manufacturer Part Number">LRWAN_GS_HF1</field>
+        <field name="Manufaturer">STMicroelectronics</field>
+        <field name="Package">Custom 75x54mm</field>
+        <field name="Price@1000pcs">500</field>
+        <field name="Price@1pc">500</field>
+        <field name="Supplier">RS Components</field>
+        <field name="Supplier Part Number">LRWAN_GS_HF1</field>
+        <field name="URL">https://pl.rs-online.com/web/p/narzedzia-rozwojowe-z-kategorii-komunikacja-i-lacznos-bezprzewodowa/1939789/</field>
+      </fields>
+      <libsource lib="Shields" part="LRWAN_GS_HF1" description="ST Loragateway device LRWAN GS HF1"/>
+      <property name="Manufaturer" value="STMicroelectronics"/>
+      <property name="Manufacturer Part Number" value="LRWAN_GS_HF1"/>
+      <property name="Supplier" value="RS Components"/>
+      <property name="Supplier Part Number" value="LRWAN_GS_HF1"/>
+      <property name="URL" value="https://pl.rs-online.com/web/p/narzedzia-rozwojowe-z-kategorii-komunikacja-i-lacznos-bezprzewodowa/1939789/"/>
+      <property name="Price@1pc" value="500"/>
+      <property name="Price@1000pcs" value="500"/>
+      <property name="Developer" value="MW"/>
+      <property name="Package" value="Custom 75x54mm"/>
+      <property name="LCSC Part #(optional)" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cubieboard-lora-gateway-lrwan-gs_hf1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c3209b1e-f11d-4d02-acac-6bc09e196d60</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>100n</value>
+      <footprint>Capacitors_Smd_0603:100nF_0603</footprint>
+      <datasheet>Capacitors/Smd_0603/Components_Documentation/KEM_C1005_Y5V_SMD.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">SAMSUNG</field>
+        <field name="Manufacturer Part Number">CL10B104JB8NNNC</field>
+        <field name="Package">0603</field>
+        <field name="Price@1000pcs">0,02231</field>
+        <field name="Price@1pc">0,04540</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">CL10B104JB8NNNC</field>
+        <field name="URL">https://www.tme.eu/pl/details/cl10b104jb8nnnc/kondensatory-mlcc-smd-0603/samsung/</field>
+      </fields>
+      <libsource lib="Capacitors_Smd0603" part="100n" description="100nF / 50V, X7R, 5%, -55°C to +125°C"/>
+      <property name="Manufacturer" value="SAMSUNG"/>
+      <property name="Manufacturer Part Number" value="CL10B104JB8NNNC"/>
+      <property name="Supplier" value="TME"/>
+      <property name="Supplier Part Number" value="CL10B104JB8NNNC"/>
+      <property name="URL" value="https://www.tme.eu/pl/details/cl10b104jb8nnnc/kondensatory-mlcc-smd-0603/samsung/"/>
+      <property name="Price@1pc" value="0,04540"/>
+      <property name="Price@1000pcs" value="0,02231"/>
+      <property name="Package" value="0603"/>
+      <property name="Sheetname" value="Minipci Module"/>
+      <property name="Sheetfile" value="minipci_module.kicad_sch"/>
+      <sheetpath names="/Minipci Module/" tstamps="/a8f209b4-70b4-43e1-9832-45007a5b4248/"/>
+      <tstamps>00000000-0000-0000-0000-0000600b8508</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>10uF</value>
+      <footprint>Capacitors_Smd_0603:10uF_10V_0603</footprint>
+      <datasheet>https://www.tme.eu/Document/08070be221b22b3ff38fe1f90e5753ee/C0603C106M9PACTU.pdf</datasheet>
+      <fields>
+        <field name="Developer">MW</field>
+        <field name="LCSC Part # (optional)">C162265</field>
+        <field name="Manufacturer">KEMET</field>
+        <field name="Manufacturer Part Number">C0603C106M9PACTU</field>
+        <field name="Package">0603</field>
+        <field name="Price@1000pcs">0,20713</field>
+        <field name="Price@1pc">0,81309</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">C0603C106M9PAC</field>
+        <field name="URL">https://www.tme.eu/pl/details/c0603c106m9pac/kondensatory-mlcc-smd-0603/kemet/c0603c106m9pactu/</field>
+      </fields>
+      <libsource lib="Capacitors_Smd0603" part="10uF" description="10uF, 6.3V, X5R, 10%, -55°C to +85°C MLCC"/>
+      <property name="Manufacturer" value="KEMET"/>
+      <property name="Manufacturer Part Number" value="C0603C106M9PACTU"/>
+      <property name="Supplier" value="TME"/>
+      <property name="Supplier Part Number" value="C0603C106M9PAC"/>
+      <property name="URL" value="https://www.tme.eu/pl/details/c0603c106m9pac/kondensatory-mlcc-smd-0603/kemet/c0603c106m9pactu/"/>
+      <property name="Price@1pc" value="0,81309"/>
+      <property name="Price@1000pcs" value="0,20713"/>
+      <property name="Developer" value="MW"/>
+      <property name="Package" value="0603"/>
+      <property name="LCSC Part # (optional)" value="C162265"/>
+      <property name="Sheetname" value="Minipci Module"/>
+      <property name="Sheetfile" value="minipci_module.kicad_sch"/>
+      <sheetpath names="/Minipci Module/" tstamps="/a8f209b4-70b4-43e1-9832-45007a5b4248/"/>
+      <tstamps>00000000-0000-0000-0000-0000600b9083</tstamps>
+    </comp>
+    <comp ref="Con3">
+      <value>2041119-1</value>
+      <footprint>Smd_Connectors:2041119-1</footprint>
+      <datasheet>Connectors/Smd_Connectors/Components_Documentation/2041119-1.pdf</datasheet>
+      <fields>
+        <field name="Developer">WP</field>
+        <field name="Manufacturer">TE Connectivity</field>
+        <field name="Manufacturer Part Number">2041119-1</field>
+        <field name="Price@1000pcs">1,81</field>
+        <field name="Price@1pc">2,76</field>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">571-2041119-1</field>
+        <field name="URL">https://pl.mouser.com/ProductDetail/TE-Connectivity/2041119-1?qs=%252BD5sUuPmlApmv1YR%252BaSc%252Bw%3D%3D</field>
+      </fields>
+      <libsource lib="Smd_Connectors" part="2041119-1" description="TE Connectivity SMD Gold Flash Mini PCI-Express Connector"/>
+      <property name="Manufacturer" value="TE Connectivity"/>
+      <property name="Manufacturer Part Number" value="2041119-1"/>
+      <property name="Supplier" value="Mouser"/>
+      <property name="Supplier Part Number" value="571-2041119-1"/>
+      <property name="URL" value="https://pl.mouser.com/ProductDetail/TE-Connectivity/2041119-1?qs=%252BD5sUuPmlApmv1YR%252BaSc%252Bw%3D%3D"/>
+      <property name="Price@1pc" value="2,76"/>
+      <property name="Price@1000pcs" value="1,81"/>
+      <property name="Developer" value="WP"/>
+      <property name="Sheetname" value="Minipci Module"/>
+      <property name="Sheetfile" value="minipci_module.kicad_sch"/>
+      <sheetpath names="/Minipci Module/" tstamps="/a8f209b4-70b4-43e1-9832-45007a5b4248/"/>
+      <tstamps>00000000-0000-0000-0000-00005ffedd16</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Capacitors_Smd0603" part="100n">
+      <description>100nF / 50V, X7R, 5%, -55°C to +125°C</description>
+      <docs>Capacitors/Smd_0603/Components_Documentation/KEM_C1005_Y5V_SMD.pdf</docs>
+      <footprints>
+        <fp>100nF_0603</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">100n</field>
+        <field name="Datasheet">Capacitors/Smd_0603/Components_Documentation/KEM_C1005_Y5V_SMD.pdf</field>
+        <field name="Manufacturer">SAMSUNG</field>
+        <field name="Manufacturer Part Number">CL10B104JB8NNNC</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">CL10B104JB8NNNC</field>
+        <field name="URL">https://www.tme.eu/pl/details/cl10b104jb8nnnc/kondensatory-mlcc-smd-0603/samsung/</field>
+        <field name="Price@1pc">0,04540</field>
+        <field name="Price@1000pcs">0,02231</field>
+        <field name="Package">0603</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Capacitors_Smd0603" part="10uF">
+      <description>10uF, 6.3V, X5R, 10%, -55°C to +85°C MLCC</description>
+      <docs>https://www.tme.eu/Document/08070be221b22b3ff38fe1f90e5753ee/C0603C106M9PACTU.pdf</docs>
+      <footprints>
+        <fp>10uF_10V_0603</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">10uF</field>
+        <field name="Datasheet">https://www.tme.eu/Document/08070be221b22b3ff38fe1f90e5753ee/C0603C106M9PACTU.pdf</field>
+        <field name="Manufacturer">KEMET</field>
+        <field name="Manufacturer Part Number">C0603C106M9PACTU</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">C0603C106M9PAC</field>
+        <field name="URL">https://www.tme.eu/pl/details/c0603c106m9pac/kondensatory-mlcc-smd-0603/kemet/c0603c106m9pactu/</field>
+        <field name="Price@1pc">0,81309</field>
+        <field name="Price@1000pcs">0,20713</field>
+        <field name="Developer">MW</field>
+        <field name="Package">0603</field>
+        <field name="LCSC Part # (optional)">C162265</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diodes" part="KPG-1608SURKC-T">
+      <description>Red LED 0603 630nm 20mA 200...350mcd 120° -40°C to +85°C</description>
+      <docs>https://www.tme.eu/Document/d1801a08836278504c2ab877cf18852c/KPG-1608SURKC-T.pdf</docs>
+      <footprints>
+        <fp>LED_KPG-1608SURKC-T</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">KPG-1608SURKC-T</field>
+        <field name="Datasheet">https://www.tme.eu/Document/d1801a08836278504c2ab877cf18852c/KPG-1608SURKC-T.pdf</field>
+        <field name="Manufacturer">	KINGBRIGHT ELECTRONIC</field>
+        <field name="Manufacturer Part Number">KPG-1608SURKC-T</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">KPG-1608SURKC-T</field>
+        <field name="URL">https://www.tme.eu/pl/details/kpg-1608surkc-t/diody-led-smd-kolorowe/kingbright-electronic/</field>
+        <field name="Price@1pc">0,4132</field>
+        <field name="Price@1000pcs">0,1995</field>
+        <field name="Developer">WP</field>
+        <field name="Package">0603</field>
+        <field name="LCSC Part # (optional)">C192315</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diodes" part="KPT-1608CGCK">
+      <description>Green LED 0603 570nm 20mA 10...40mcd 120° -40°C to +85°C</description>
+      <docs>https://www.tme.eu/Document/a39d324b494aca9bed634649dc83966d/kp-1608cgck.pdf</docs>
+      <footprints>
+        <fp>LED_KPT-1608CGCK</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">KPT-1608CGCK</field>
+        <field name="Datasheet">https://www.tme.eu/Document/a39d324b494aca9bed634649dc83966d/kp-1608cgck.pdf</field>
+        <field name="Manufacturer">	KINGBRIGHT ELECTRONIC</field>
+        <field name="Manufacturer Part Number">KP-1608CGCK</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">KP-1608CGCK</field>
+        <field name="URL">https://www.tme.eu/pl/details/kp-1608cgck/diody-led-smd-kolorowe/kingbright-electronic/</field>
+        <field name="Price@1pc">0,47368</field>
+        <field name="Price@1000pcs">0,16283</field>
+        <field name="Developer">WP</field>
+        <field name="Package">0603</field>
+        <field name="LCSC Part # (optional)">C192316</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Goldpin_2_54mm" part="GOLDPIN_3_2_54MM">
+      <description>Pin header / pin strips male PIN: 3 straight 2.54mm THT 1x3</description>
+      <docs>https://www.tme.eu/Document/cc301e58a5da78cb543a94b5a5b7f06a/DS1021.pdf</docs>
+      <footprints>
+        <fp>Goldpin_3_2_54mm</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">GOLDPIN_3_2_54MM</field>
+        <field name="Footprint">Goldpin:Goldpin_3_2_54mm</field>
+        <field name="Datasheet">https://www.tme.eu/Document/cc301e58a5da78cb543a94b5a5b7f06a/DS1021.pdf</field>
+        <field name="Manufacturer">CONNFLY</field>
+        <field name="Manufacturer Part Number">DS1021-1*3SF1-1</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">ZL201-03G</field>
+        <field name="URL">https://www.tme.eu/pl/en/details/zl201-03g/pin-headers/connfly/ds1021-1-3sf1-1/</field>
+        <field name="Price@1pc">0,09751</field>
+        <field name="Price@1000pcs">0,05850</field>
+        <field name="Developer">MW</field>
+        <field name="Package">Goldpin 1x3x2.54mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Header_Socket_2mm" part="Header_Socket_2x26">
+      <description>Header Socket 2x26pin pitch 2mm</description>
+      <docs>/home/mw/kicad_library/Schematic/Connectors/Header_Socket_2mm/Components_Documentation/DS1026-05.pdf</docs>
+      <footprints>
+        <fp>Header_Socket_2x26pin</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Con</field>
+        <field name="Value">Header_Socket_2x26</field>
+        <field name="Footprint">Header_Socket_2mm:Header_Socket_2x26pin</field>
+        <field name="Datasheet">/home/mw/kicad_library/Schematic/Connectors/Header_Socket_2mm/Components_Documentation/DS1026-05.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="13" type="passive"/>
+        <pin num="14" name="14" type="passive"/>
+        <pin num="15" name="15" type="passive"/>
+        <pin num="16" name="16" type="passive"/>
+        <pin num="17" name="17" type="passive"/>
+        <pin num="18" name="18" type="passive"/>
+        <pin num="19" name="19" type="passive"/>
+        <pin num="20" name="20" type="passive"/>
+        <pin num="21" name="21" type="passive"/>
+        <pin num="22" name="22" type="passive"/>
+        <pin num="23" name="23" type="passive"/>
+        <pin num="24" name="24" type="passive"/>
+        <pin num="25" name="25" type="passive"/>
+        <pin num="26" name="26" type="passive"/>
+        <pin num="27" name="27" type="passive"/>
+        <pin num="28" name="28" type="passive"/>
+        <pin num="29" name="29" type="passive"/>
+        <pin num="30" name="30" type="passive"/>
+        <pin num="31" name="31" type="passive"/>
+        <pin num="32" name="32" type="passive"/>
+        <pin num="33" name="33" type="passive"/>
+        <pin num="34" name="34" type="passive"/>
+        <pin num="35" name="35" type="passive"/>
+        <pin num="36" name="36" type="passive"/>
+        <pin num="37" name="37" type="passive"/>
+        <pin num="38" name="38" type="passive"/>
+        <pin num="39" name="39" type="passive"/>
+        <pin num="40" name="40" type="passive"/>
+        <pin num="41" name="41" type="passive"/>
+        <pin num="42" name="42" type="passive"/>
+        <pin num="43" name="43" type="passive"/>
+        <pin num="44" name="44" type="passive"/>
+        <pin num="45" name="45" type="passive"/>
+        <pin num="46" name="46" type="passive"/>
+        <pin num="47" name="47" type="passive"/>
+        <pin num="48" name="48" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Header_Socket_2mm" part="Header_Socket_2x26_1">
+      <description>Header Socket 2x26pin pitch 2mm</description>
+      <docs>/home/mw/kicad_library/Schematic/Connectors/Header_Socket_2mm/Components_Documentation/DS1026-05.pdf</docs>
+      <footprints>
+        <fp>Header_Socket_2x26pin</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Con</field>
+        <field name="Value">Header_Socket_2x26</field>
+        <field name="Footprint">Header_Socket_2mm:Header_Socket_2x26pin</field>
+        <field name="Datasheet">/home/mw/kicad_library/Schematic/Connectors/Header_Socket_2mm/Components_Documentation/DS1026-05.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="13" type="passive"/>
+        <pin num="14" name="14" type="passive"/>
+        <pin num="15" name="15" type="passive"/>
+        <pin num="16" name="16" type="passive"/>
+        <pin num="17" name="17" type="passive"/>
+        <pin num="18" name="18" type="passive"/>
+        <pin num="19" name="19" type="passive"/>
+        <pin num="20" name="20" type="passive"/>
+        <pin num="21" name="21" type="passive"/>
+        <pin num="22" name="22" type="passive"/>
+        <pin num="23" name="23" type="passive"/>
+        <pin num="24" name="24" type="passive"/>
+        <pin num="25" name="25" type="passive"/>
+        <pin num="26" name="26" type="passive"/>
+        <pin num="27" name="27" type="passive"/>
+        <pin num="28" name="28" type="passive"/>
+        <pin num="29" name="29" type="passive"/>
+        <pin num="30" name="30" type="passive"/>
+        <pin num="31" name="31" type="passive"/>
+        <pin num="32" name="32" type="passive"/>
+        <pin num="33" name="33" type="passive"/>
+        <pin num="34" name="34" type="passive"/>
+        <pin num="35" name="35" type="passive"/>
+        <pin num="36" name="36" type="passive"/>
+        <pin num="37" name="37" type="passive"/>
+        <pin num="38" name="38" type="passive"/>
+        <pin num="39" name="39" type="passive"/>
+        <pin num="40" name="40" type="passive"/>
+        <pin num="41" name="41" type="passive"/>
+        <pin num="42" name="42" type="passive"/>
+        <pin num="43" name="43" type="passive"/>
+        <pin num="44" name="44" type="passive"/>
+        <pin num="45" name="45" type="passive"/>
+        <pin num="46" name="46" type="passive"/>
+        <pin num="47" name="47" type="passive"/>
+        <pin num="48" name="48" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mounting_Holes" part="Mounting_Hole_M2_Grounded">
+      <description>Mounting Hole M3 2.3mm Hole Size</description>
+      <footprints>
+        <fp>Mounting_Hole_M2_Grounded</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">MH</field>
+        <field name="Value">Mounting_Hole_M2_Grounded</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Resistors_Smd0603" part="220R">
+      <description>220Ω 0,1W ±1% -55...155°C</description>
+      <docs>https://www.tme.eu/Document/ec37243ca557adb02ebafc5c1ab83104/CQ%20datasheet.pdf</docs>
+      <footprints>
+        <fp>220R_0603</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">220R</field>
+        <field name="Datasheet">https://www.tme.eu/Document/ec37243ca557adb02ebafc5c1ab83104/CQ%20datasheet.pdf</field>
+        <field name="Manufacturer">Royal Ohm</field>
+        <field name="Manufacturer Part Number">CQ03SAF2203T5E</field>
+        <field name="Supplier">Tme</field>
+        <field name="Supplier Part Number">CQ0603-220K-1%</field>
+        <field name="URL">https://www.tme.eu/pl/details/cq0603-220k-1%25/rezystory-smd-0603/royal-ohm/cq03saf2203t5e/</field>
+        <field name="Price@1pc">0,07305</field>
+        <field name="Price@1000pcs">0,03414</field>
+        <field name="Developer">MW</field>
+        <field name="Package">0603</field>
+        <field name="LCSC Part #(optional)">C103414</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Shields" part="LRWAN_GS_HF1">
+      <description>ST Loragateway device LRWAN GS HF1</description>
+      <docs>https://usermanual.wiki/STMicroelectronicsS/GSHF1/html</docs>
+      <footprints>
+        <fp>LRWAN_GS_HF1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LRWAN_GS_HF1</field>
+        <field name="Footprint">Shields:LRWAN_GS_HF1</field>
+        <field name="Datasheet">https://usermanual.wiki/STMicroelectronicsS/GSHF1/html</field>
+        <field name="Manufaturer">STMicroelectronics</field>
+        <field name="Manufacturer Part Number">LRWAN_GS_HF1</field>
+        <field name="Supplier">RS Components</field>
+        <field name="Supplier Part Number">LRWAN_GS_HF1</field>
+        <field name="URL">https://pl.rs-online.com/web/p/narzedzia-rozwojowe-z-kategorii-komunikacja-i-lacznos-bezprzewodowa/1939789/</field>
+        <field name="Price@1pc">500</field>
+        <field name="Price@1000pcs">500</field>
+        <field name="Developer">MW</field>
+        <field name="Package">Custom 75x54mm</field>
+      </fields>
+      <pins>
+        <pin num="11" name="GND" type="power_in"/>
+        <pin num="13" name="GND" type="power_in"/>
+        <pin num="15" name="VIN" type="power_in"/>
+        <pin num="25" name="GPIO4-PF5" type="bidirectional"/>
+        <pin num="27" name="GPIO3-PF10" type="bidirectional"/>
+        <pin num="56" name="SCK(opt)-PA5" type="input"/>
+        <pin num="58" name="MISO(opt)-PA6" type="output"/>
+        <pin num="60" name="MOSI(opt)-PA7" type="input"/>
+        <pin num="62" name="CSN(opt)-PD14" type="input"/>
+        <pin num="64" name="BAND_SET1_PD15" type="input"/>
+        <pin num="66" name="RST-PF12" type="input"/>
+        <pin num="68" name="GPIO0-PF13" type="bidirectional"/>
+        <pin num="70" name="BAND_SET2_PE9" type="input"/>
+        <pin num="72" name="CSN-PE11" type="input"/>
+        <pin num="74" name="GPIO1-PF14" type="bidirectional"/>
+        <pin num="76" name="MISO-PE13" type="output"/>
+        <pin num="78" name="GPIO2-PF15" type="bidirectional"/>
+        <pin num="92" name="SCK-PE12" type="input"/>
+        <pin num="94" name="MOSI-PE14" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Smd_Connectors" part="2041119-1">
+      <description>TE Connectivity SMD Gold Flash Mini PCI-Express Connector</description>
+      <docs>Connectors/Smd_Connectors/Components_Documentation/2041119-1.pdf</docs>
+      <footprints>
+        <fp>2041119-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Con</field>
+        <field name="Value">2041119-1</field>
+        <field name="Datasheet">Connectors/Smd_Connectors/Components_Documentation/2041119-1.pdf</field>
+        <field name="Manufacturer">TE Connectivity</field>
+        <field name="Manufacturer Part Number">2041119-1</field>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">571-2041119-1</field>
+        <field name="URL">https://pl.mouser.com/ProductDetail/TE-Connectivity/2041119-1?qs=%252BD5sUuPmlApmv1YR%252BaSc%252Bw%3D%3D</field>
+        <field name="Price@1pc">2,76</field>
+        <field name="Price@1000pcs">1,81</field>
+        <field name="Developer">WP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="13" type="passive"/>
+        <pin num="14" name="14" type="passive"/>
+        <pin num="15" name="15" type="passive"/>
+        <pin num="16" name="16" type="passive"/>
+        <pin num="17" name="17" type="passive"/>
+        <pin num="18" name="18" type="passive"/>
+        <pin num="19" name="19" type="passive"/>
+        <pin num="20" name="20" type="passive"/>
+        <pin num="21" name="21" type="passive"/>
+        <pin num="22" name="22" type="passive"/>
+        <pin num="23" name="23" type="passive"/>
+        <pin num="24" name="24" type="passive"/>
+        <pin num="25" name="25" type="passive"/>
+        <pin num="26" name="26" type="passive"/>
+        <pin num="27" name="27" type="passive"/>
+        <pin num="28" name="28" type="passive"/>
+        <pin num="29" name="29" type="passive"/>
+        <pin num="30" name="30" type="passive"/>
+        <pin num="31" name="31" type="passive"/>
+        <pin num="32" name="32" type="passive"/>
+        <pin num="33" name="33" type="passive"/>
+        <pin num="34" name="34" type="passive"/>
+        <pin num="35" name="35" type="passive"/>
+        <pin num="36" name="36" type="passive"/>
+        <pin num="37" name="37" type="passive"/>
+        <pin num="38" name="38" type="passive"/>
+        <pin num="39" name="39" type="passive"/>
+        <pin num="40" name="40" type="passive"/>
+        <pin num="41" name="41" type="passive"/>
+        <pin num="42" name="42" type="passive"/>
+        <pin num="43" name="43" type="passive"/>
+        <pin num="44" name="44" type="passive"/>
+        <pin num="45" name="45" type="passive"/>
+        <pin num="46" name="46" type="passive"/>
+        <pin num="47" name="47" type="passive"/>
+        <pin num="48" name="48" type="passive"/>
+        <pin num="49" name="49" type="passive"/>
+        <pin num="50" name="50" type="passive"/>
+        <pin num="51" name="51" type="passive"/>
+        <pin num="52" name="52" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Capacitors_Smd0603">
+      <uri>C:\Users\mw\kicad_library\Schematic/Capacitors/Smd_0603/Capacitors_Smd0603.kicad_sym</uri>
+    </library>
+    <library logical="Diodes">
+      <uri>C:\Users\mw\kicad_library\Schematic/Diodes/Diodes.kicad_sym</uri>
+    </library>
+    <library logical="Goldpin_2_54mm">
+      <uri>C:\Users\mw\kicad_library\Schematic/Goldpins/Goldpin_2.54mm/Goldpin_2_54mm.kicad_sym</uri>
+    </library>
+    <library logical="Header_Socket_2mm">
+      <uri>C:\Users\mw\kicad_library\Schematic/Connectors/Header_Socket_2mm/Header_Socket_2mm.kicad_sym</uri>
+    </library>
+    <library logical="Mounting_Holes">
+      <uri>C:\Users\mw\kicad_library\Schematic/Mounting_Holes/Mounting_Holes.kicad_sym</uri>
+    </library>
+    <library logical="Resistors_Smd0603">
+      <uri>C:\Users\mw\kicad_library\Schematic/Resistors/Smd_0603/Resistors_Smd0603.kicad_sym</uri>
+    </library>
+    <library logical="Shields">
+      <uri>C:\Users\mw\kicad_library\Schematic/Shields/Shields.kicad_sym</uri>
+    </library>
+    <library logical="Smd_Connectors">
+      <uri>C:\Users\mw\kicad_library\Schematic/Connectors/Smd_Connectors/Smd_Connectors.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/CSI1_IO">
+      <node ref="Con2" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="2" name="/CVBS">
+      <node ref="Con2" pin="43" pinfunction="43" pintype="passive"/>
+    </net>
+    <net code="3" name="/FMINL">
+      <node ref="Con2" pin="21" pinfunction="21" pintype="passive"/>
+    </net>
+    <net code="4" name="/FMINR">
+      <node ref="Con2" pin="23" pinfunction="23" pintype="passive"/>
+    </net>
+    <net code="5" name="/HPL">
+      <node ref="Con2" pin="45" pinfunction="45" pintype="passive"/>
+    </net>
+    <net code="6" name="/HPR">
+      <node ref="Con2" pin="47" pinfunction="47" pintype="passive"/>
+    </net>
+    <net code="7" name="/LCD1_HSYNC">
+      <node ref="Con2" pin="35" pinfunction="35" pintype="passive"/>
+    </net>
+    <net code="8" name="/LCD1_VSYNC">
+      <node ref="Con2" pin="33" pinfunction="33" pintype="passive"/>
+    </net>
+    <net code="9" name="/LRADC0">
+      <node ref="Con2" pin="41" pinfunction="41" pintype="passive"/>
+    </net>
+    <net code="10" name="/Minipci Module/USB-D_M">
+      <node ref="Con3" pin="36" pinfunction="36" pintype="passive"/>
+    </net>
+    <net code="11" name="/Minipci Module/USB-D_P">
+      <node ref="Con3" pin="38" pinfunction="38" pintype="passive"/>
+    </net>
+    <net code="12" name="/PB2_PWM0">
+      <node ref="Con1" pin="31" pinfunction="31" pintype="passive"/>
+      <node ref="U1" pin="27" pinfunction="GPIO3-PF10" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="/PB10{slash}I2S_D02">
+      <node ref="Con1" pin="40" pinfunction="40" pintype="passive"/>
+    </net>
+    <net code="14" name="/PB11{slash}I2S_D03">
+      <node ref="Con1" pin="39" pinfunction="39" pintype="passive"/>
+      <node ref="Con3" pin="22" pinfunction="22" pintype="passive"/>
+      <node ref="U1" pin="66" pinfunction="RST-PF12" pintype="input"/>
+    </net>
+    <net code="15" name="/PB18{slash}TWI1_SCK">
+      <node ref="Con2" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="Con3" pin="19" pinfunction="19" pintype="passive"/>
+      <node ref="U1" pin="78" pinfunction="GPIO2-PF15" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="/PB19{slash}TWI1_SDA">
+      <node ref="Con2" pin="7" pinfunction="7" pintype="passive"/>
+    </net>
+    <net code="17" name="/PD0{slash}LCD0_D0{slash}LVDS0_VP0">
+      <node ref="Con1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="18" name="/PD1{slash}LCD0_D1{slash}LVDS0_VN0">
+      <node ref="Con1" pin="4" pinfunction="4" pintype="passive"/>
+    </net>
+    <net code="19" name="/PD2{slash}LCD0_D2{slash}LVDS0_VP1">
+      <node ref="Con1" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="20" name="/PD3{slash}LCD0_D3{slash}LVDS0_VN1">
+      <node ref="Con1" pin="6" pinfunction="6" pintype="passive"/>
+    </net>
+    <net code="21" name="/PD4{slash}LCD0_D4{slash}LVDS0_VP2">
+      <node ref="Con1" pin="5" pinfunction="5" pintype="passive"/>
+    </net>
+    <net code="22" name="/PD5{slash}LCD0_D5{slash}LVDS0_VN2">
+      <node ref="Con1" pin="8" pinfunction="8" pintype="passive"/>
+    </net>
+    <net code="23" name="/PD6{slash}LCD0_D6{slash}LVDS0_VPC">
+      <node ref="Con1" pin="7" pinfunction="7" pintype="passive"/>
+    </net>
+    <net code="24" name="/PD7{slash}LCD0_D7{slash}LVDS0_VNC">
+      <node ref="Con1" pin="10" pinfunction="10" pintype="passive"/>
+    </net>
+    <net code="25" name="/PD8{slash}LCD0_D8{slash}LVDS0_VP3">
+      <node ref="Con1" pin="12" pinfunction="12" pintype="passive"/>
+    </net>
+    <net code="26" name="/PD9{slash}LCD0_D0{slash}LVDS0_VN3">
+      <node ref="Con1" pin="11" pinfunction="11" pintype="passive"/>
+    </net>
+    <net code="27" name="/PD10{slash}LCD0_D10{slash}LVDS1_VP0">
+      <node ref="Con1" pin="14" pinfunction="14" pintype="passive"/>
+    </net>
+    <net code="28" name="/PD11{slash}LCD0_D11{slash}LVDS1_VN0">
+      <node ref="Con1" pin="13" pinfunction="13" pintype="passive"/>
+    </net>
+    <net code="29" name="/PD12{slash}LCD0_D12{slash}LVDS1_VP1">
+      <node ref="Con1" pin="16" pinfunction="16" pintype="passive"/>
+    </net>
+    <net code="30" name="/PD13{slash}LCD0_D13{slash}LVDS1_VN1">
+      <node ref="Con1" pin="15" pinfunction="15" pintype="passive"/>
+    </net>
+    <net code="31" name="/PD14{slash}LCD0_D14{slash}LVDS1_VP2">
+      <node ref="Con1" pin="18" pinfunction="18" pintype="passive"/>
+    </net>
+    <net code="32" name="/PD14{slash}LCD0_D15{slash}LVDS1_VN2">
+      <node ref="Con1" pin="17" pinfunction="17" pintype="passive"/>
+    </net>
+    <net code="33" name="/PD16{slash}LCD0_D16{slash}LVDS1_VPC">
+      <node ref="Con1" pin="19" pinfunction="19" pintype="passive"/>
+    </net>
+    <net code="34" name="/PD17{slash}LCD0_D17{slash}LVDS1_VNC">
+      <node ref="Con1" pin="22" pinfunction="22" pintype="passive"/>
+    </net>
+    <net code="35" name="/PD18{slash}LCD0_D18{slash}LVDS1_VP3">
+      <node ref="Con1" pin="21" pinfunction="21" pintype="passive"/>
+    </net>
+    <net code="36" name="/PD19{slash}LCD0_D19{slash}LVDS1_VN3">
+      <node ref="Con1" pin="24" pinfunction="24" pintype="passive"/>
+    </net>
+    <net code="37" name="/PD20{slash}LCD0_D20{slash}CSI1_MCLK">
+      <node ref="Con1" pin="23" pinfunction="23" pintype="passive"/>
+    </net>
+    <net code="38" name="/PD21{slash}LCD0_D21{slash}SMC_VPPEN">
+      <node ref="Con1" pin="26" pinfunction="26" pintype="passive"/>
+    </net>
+    <net code="39" name="/PD22{slash}LCD0_D22{slash}SMC_VPPPP">
+      <node ref="Con1" pin="25" pinfunction="25" pintype="passive"/>
+    </net>
+    <net code="40" name="/PD23{slash}LCD0_D23{slash}SMC_DET">
+      <node ref="Con1" pin="28" pinfunction="28" pintype="passive"/>
+    </net>
+    <net code="41" name="/PD24{slash}LCD0_CLK{slash}SMC_VCCEN">
+      <node ref="Con1" pin="29" pinfunction="29" pintype="passive"/>
+    </net>
+    <net code="42" name="/PD25{slash}LCD0_DE{slash}SMC_RST">
+      <node ref="Con1" pin="32" pinfunction="32" pintype="passive"/>
+    </net>
+    <net code="43" name="/PD26{slash}LCD0_HSYNC{slash}SMC_SCK">
+      <node ref="Con1" pin="30" pinfunction="30" pintype="passive"/>
+    </net>
+    <net code="44" name="/PD27{slash}LCD0_VSYNC{slash}SMC_SDA">
+      <node ref="Con1" pin="27" pinfunction="27" pintype="passive"/>
+    </net>
+    <net code="45" name="/PE4{slash}TS0_D0">
+      <node ref="Con2" pin="34" pinfunction="34" pintype="passive"/>
+      <node ref="U1" pin="25" pinfunction="GPIO4-PF5" pintype="bidirectional"/>
+    </net>
+    <net code="46" name="/PE5{slash}TS0_D1{slash}CSI0_D1{slash}SMC_VPPEN">
+      <node ref="Con2" pin="36" pinfunction="36" pintype="passive"/>
+      <node ref="U1" pin="74" pinfunction="GPIO1-PF14" pintype="bidirectional"/>
+    </net>
+    <net code="47" name="/PE6{slash}TS0_D2{slash}CSI0_D2">
+      <node ref="Con2" pin="38" pinfunction="38" pintype="passive"/>
+      <node ref="U1" pin="68" pinfunction="GPIO0-PF13" pintype="bidirectional"/>
+    </net>
+    <net code="48" name="/PE7{slash}TS0_D3{slash}CSI0_D3">
+      <node ref="Con2" pin="40" pinfunction="40" pintype="passive"/>
+    </net>
+    <net code="49" name="/PE8{slash}TS0_D4{slash}CSI0_D4">
+      <node ref="Con2" pin="42" pinfunction="42" pintype="passive"/>
+    </net>
+    <net code="50" name="/PE9{slash}TS0_D5{slash}CSI0_D5">
+      <node ref="Con2" pin="44" pinfunction="44" pintype="passive"/>
+    </net>
+    <net code="51" name="/PE10{slash}TS0_D6{slash}CSI0_D6">
+      <node ref="Con2" pin="46" pinfunction="46" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="52" name="/PE11{slash}TS0_D7{slash}CSI0_D7">
+      <node ref="Con2" pin="48" pinfunction="48" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="53" name="/PG0{slash}TS1_CLK{slash}CSI1_PCK{slash}SDC1_CMD">
+      <node ref="Con2" pin="5" pinfunction="5" pintype="passive"/>
+    </net>
+    <net code="54" name="/PG1{slash}TS1_ERR{slash}CSI1_CK{slash}SDC1_CLK">
+      <node ref="Con2" pin="10" pinfunction="10" pintype="passive"/>
+    </net>
+    <net code="55" name="/PG2{slash}TS1_SYNC{slash}CSI1_HSYNC{slash}SDC1_D0">
+      <node ref="Con2" pin="9" pinfunction="9" pintype="passive"/>
+    </net>
+    <net code="56" name="/PG3{slash}TS1_DVLD{slash}CSI1_VSYNC{slash}SDC1_D1">
+      <node ref="Con2" pin="8" pinfunction="8" pintype="passive"/>
+    </net>
+    <net code="57" name="/PG4{slash}TS1_D0{slash}CSI1_D0{slash}SDC1_D2{slash}CSI0_D8">
+      <node ref="Con2" pin="11" pinfunction="11" pintype="passive"/>
+    </net>
+    <net code="58" name="/PG5{slash}TS1_D1{slash}CSI1_D1{slash}SDC1_D3{slash}CSI0_D9">
+      <node ref="Con2" pin="12" pinfunction="12" pintype="passive"/>
+    </net>
+    <net code="59" name="/PG6{slash}TS1_D2{slash}CSI1_D2{slash}UART3_TX{slash}CSI0_D10">
+      <node ref="Con2" pin="13" pinfunction="13" pintype="passive"/>
+    </net>
+    <net code="60" name="/PG7{slash}TS1_D3{slash}CSI1_D3{slash}UART3_RX{slash}CSI0_D11">
+      <node ref="Con2" pin="14" pinfunction="14" pintype="passive"/>
+    </net>
+    <net code="61" name="/PG8{slash}TS1_D4{slash}CSI1_D4{slash}UART3_RTS{slash}CSI0_D12">
+      <node ref="Con2" pin="15" pinfunction="15" pintype="passive"/>
+    </net>
+    <net code="62" name="/PG9{slash}TS1_D5{slash}CSI1_D5{slash}UART3_CTS{slash}CSI0_D13">
+      <node ref="Con2" pin="16" pinfunction="16" pintype="passive"/>
+    </net>
+    <net code="63" name="/PG10{slash}TS1_D6{slash}CSI1_D6{slash}UART4_TX{slash}CSI0_D14">
+      <node ref="Con2" pin="17" pinfunction="17" pintype="passive"/>
+    </net>
+    <net code="64" name="/PG10{slash}TS1_D7{slash}CSI1_D7{slash}UART4_RX{slash}CSI0_D15">
+      <node ref="Con2" pin="18" pinfunction="18" pintype="passive"/>
+    </net>
+    <net code="65" name="/PH7{slash}LCD1_D07{slash}ATA_D03{slash}UART5_RX{slash}MS_CLK{slash}EINT7">
+      <node ref="Con1" pin="37" pinfunction="37" pintype="passive"/>
+    </net>
+    <net code="66" name="/PH14{slash}LCD1_D14{slash}ATA_D10{slash}KP_INT4{slash}SMC_VPPEN{slash}EINT14{slash}CSI1_D14">
+      <node ref="Con2" pin="4" pinfunction="4" pintype="passive"/>
+    </net>
+    <net code="67" name="/PH15{slash}LCD1_D15{slash}ATA_D11{slash}KP_IN5{slash}SMC_VPPPP{slash}EINT15{slash}CSI1_D15">
+      <node ref="Con2" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="68" name="/PI4_SDC3_CMD">
+      <node ref="Con2" pin="22" pinfunction="22" pintype="passive"/>
+    </net>
+    <net code="69" name="/PI5{slash}SDC3_CLK">
+      <node ref="Con2" pin="24" pinfunction="24" pintype="passive"/>
+    </net>
+    <net code="70" name="/PI6{slash}SDC3_D0">
+      <node ref="Con2" pin="26" pinfunction="26" pintype="passive"/>
+    </net>
+    <net code="71" name="/PI7{slash}SDC3_D1">
+      <node ref="Con2" pin="28" pinfunction="28" pintype="passive"/>
+    </net>
+    <net code="72" name="/PI8{slash}SDC3_D2">
+      <node ref="Con2" pin="30" pinfunction="30" pintype="passive"/>
+    </net>
+    <net code="73" name="/PI9{slash}SDC3_D3">
+      <node ref="Con2" pin="32" pinfunction="32" pintype="passive"/>
+    </net>
+    <net code="74" name="/PI10{slash}SPI0_CS0{slash}UART5_TX{slash}EINT22">
+      <node ref="Con1" pin="45" pinfunction="45" pintype="passive"/>
+      <node ref="Con3" pin="51" pinfunction="51" pintype="passive"/>
+      <node ref="U1" pin="72" pinfunction="CSN-PE11" pintype="input"/>
+    </net>
+    <net code="75" name="/PI11{slash}SPI0_CLK{slash}UART5_RX">
+      <node ref="Con1" pin="47" pinfunction="47" pintype="passive"/>
+      <node ref="Con3" pin="45" pinfunction="45" pintype="passive"/>
+      <node ref="U1" pin="92" pinfunction="SCK-PE12" pintype="input"/>
+    </net>
+    <net code="76" name="/PI12{slash}SPI0_MOSI{slash}UART6_TX{slash}EINT24">
+      <node ref="Con1" pin="46" pinfunction="46" pintype="passive"/>
+      <node ref="Con3" pin="49" pinfunction="49" pintype="passive"/>
+      <node ref="U1" pin="94" pinfunction="MOSI-PE14" pintype="input"/>
+    </net>
+    <net code="77" name="/PI13{slash}SPI0_MISO{slash}UART6_RX{slash}EINT25">
+      <node ref="Con1" pin="48" pinfunction="48" pintype="passive"/>
+      <node ref="Con3" pin="47" pinfunction="47" pintype="passive"/>
+      <node ref="U1" pin="76" pinfunction="MISO-PE13" pintype="output"/>
+    </net>
+    <net code="78" name="/SPDIF">
+      <node ref="Con1" pin="41" pinfunction="41" pintype="passive"/>
+    </net>
+    <net code="79" name="/VGA_B">
+      <node ref="Con2" pin="31" pinfunction="31" pintype="passive"/>
+    </net>
+    <net code="80" name="/VGA_G">
+      <node ref="Con2" pin="29" pinfunction="29" pintype="passive"/>
+    </net>
+    <net code="81" name="/VGA_R">
+      <node ref="Con2" pin="27" pinfunction="27" pintype="passive"/>
+    </net>
+    <net code="82" name="/XN_TP">
+      <node ref="Con1" pin="36" pinfunction="36" pintype="passive"/>
+    </net>
+    <net code="83" name="/XP_TP">
+      <node ref="Con1" pin="34" pinfunction="34" pintype="passive"/>
+    </net>
+    <net code="84" name="/YN_TP">
+      <node ref="Con1" pin="35" pinfunction="35" pintype="passive"/>
+    </net>
+    <net code="85" name="/YP_TP">
+      <node ref="Con1" pin="33" pinfunction="33" pintype="passive"/>
+    </net>
+    <net code="86" name="3V3">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="Con1" pin="44" pinfunction="44" pintype="passive"/>
+      <node ref="Con3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Con3" pin="24" pinfunction="24" pintype="passive"/>
+      <node ref="Con3" pin="39" pinfunction="39" pintype="passive"/>
+      <node ref="Con3" pin="41" pinfunction="41" pintype="passive"/>
+      <node ref="Con3" pin="52" pinfunction="52" pintype="passive"/>
+      <node ref="P1" pin="1" pintype="passive"/>
+      <node ref="P2" pin="1" pintype="passive"/>
+      <node ref="P3" pin="1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="87" name="5V">
+      <node ref="Con1" pin="43" pinfunction="43" pintype="passive"/>
+      <node ref="Con2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="P1" pin="3" pintype="passive"/>
+    </net>
+    <net code="88" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="Con1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Con1" pin="20" pinfunction="20" pintype="passive"/>
+      <node ref="Con1" pin="38" pinfunction="38" pintype="passive"/>
+      <node ref="Con1" pin="42" pinfunction="42" pintype="passive"/>
+      <node ref="Con1" pin="9" pinfunction="9" pintype="passive"/>
+      <node ref="Con2" pin="19" pinfunction="19" pintype="passive"/>
+      <node ref="Con2" pin="20" pinfunction="20" pintype="passive"/>
+      <node ref="Con2" pin="25" pinfunction="25" pintype="passive"/>
+      <node ref="Con2" pin="37" pinfunction="37" pintype="passive"/>
+      <node ref="Con3" pin="15" pinfunction="15" pintype="passive"/>
+      <node ref="Con3" pin="17" pinfunction="17" pintype="passive"/>
+      <node ref="Con3" pin="21" pinfunction="21" pintype="passive"/>
+      <node ref="Con3" pin="26" pinfunction="26" pintype="passive"/>
+      <node ref="Con3" pin="27" pinfunction="27" pintype="passive"/>
+      <node ref="Con3" pin="29" pinfunction="29" pintype="passive"/>
+      <node ref="Con3" pin="34" pinfunction="34" pintype="passive"/>
+      <node ref="Con3" pin="35" pinfunction="35" pintype="passive"/>
+      <node ref="Con3" pin="37" pinfunction="37" pintype="passive"/>
+      <node ref="Con3" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="Con3" pin="40" pinfunction="40" pintype="passive"/>
+      <node ref="Con3" pin="43" pinfunction="43" pintype="passive"/>
+      <node ref="Con3" pin="50" pinfunction="50" pintype="passive"/>
+      <node ref="Con3" pin="9" pinfunction="9" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="MH1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="MH2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="MH3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="MH4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="P2" pin="3" pintype="passive"/>
+      <node ref="P3" pin="3" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="13" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="89" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="90" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="91" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="92" name="Net-(P1-Pad2)">
+      <node ref="P1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="VIN" pintype="power_in"/>
+    </net>
+    <net code="93" name="Net-(P2-Pad2)">
+      <node ref="P2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="64" pinfunction="BAND_SET1_PD15" pintype="input"/>
+    </net>
+    <net code="94" name="Net-(P3-Pad2)">
+      <node ref="P3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="70" pinfunction="BAND_SET2_PE9" pintype="input"/>
+    </net>
+    <net code="95" name="VCC-RTC">
+      <node ref="Con2" pin="39" pinfunction="39" pintype="passive"/>
+    </net>
+    <net code="96" name="unconnected-(Con3-Pad1)">
+      <node ref="Con3" pin="1" pinfunction="1" pintype="passive+no_connect"/>
+    </net>
+    <net code="97" name="unconnected-(Con3-Pad3)">
+      <node ref="Con3" pin="3" pinfunction="3" pintype="passive+no_connect"/>
+    </net>
+    <net code="98" name="unconnected-(Con3-Pad5)">
+      <node ref="Con3" pin="5" pinfunction="5" pintype="passive+no_connect"/>
+    </net>
+    <net code="99" name="unconnected-(Con3-Pad6)">
+      <node ref="Con3" pin="6" pinfunction="6" pintype="passive+no_connect"/>
+    </net>
+    <net code="100" name="unconnected-(Con3-Pad7)">
+      <node ref="Con3" pin="7" pinfunction="7" pintype="passive+no_connect"/>
+    </net>
+    <net code="101" name="unconnected-(Con3-Pad8)">
+      <node ref="Con3" pin="8" pinfunction="8" pintype="passive+no_connect"/>
+    </net>
+    <net code="102" name="unconnected-(Con3-Pad10)">
+      <node ref="Con3" pin="10" pinfunction="10" pintype="passive+no_connect"/>
+    </net>
+    <net code="103" name="unconnected-(Con3-Pad11)">
+      <node ref="Con3" pin="11" pinfunction="11" pintype="passive+no_connect"/>
+    </net>
+    <net code="104" name="unconnected-(Con3-Pad12)">
+      <node ref="Con3" pin="12" pinfunction="12" pintype="passive+no_connect"/>
+    </net>
+    <net code="105" name="unconnected-(Con3-Pad13)">
+      <node ref="Con3" pin="13" pinfunction="13" pintype="passive+no_connect"/>
+    </net>
+    <net code="106" name="unconnected-(Con3-Pad14)">
+      <node ref="Con3" pin="14" pinfunction="14" pintype="passive+no_connect"/>
+    </net>
+    <net code="107" name="unconnected-(Con3-Pad16)">
+      <node ref="Con3" pin="16" pinfunction="16" pintype="passive+no_connect"/>
+    </net>
+    <net code="108" name="unconnected-(Con3-Pad18)">
+      <node ref="Con3" pin="18" pinfunction="18" pintype="passive+no_connect"/>
+    </net>
+    <net code="109" name="unconnected-(Con3-Pad20)">
+      <node ref="Con3" pin="20" pinfunction="20" pintype="passive+no_connect"/>
+    </net>
+    <net code="110" name="unconnected-(Con3-Pad23)">
+      <node ref="Con3" pin="23" pinfunction="23" pintype="passive+no_connect"/>
+    </net>
+    <net code="111" name="unconnected-(Con3-Pad25)">
+      <node ref="Con3" pin="25" pinfunction="25" pintype="passive+no_connect"/>
+    </net>
+    <net code="112" name="unconnected-(Con3-Pad28)">
+      <node ref="Con3" pin="28" pinfunction="28" pintype="passive+no_connect"/>
+    </net>
+    <net code="113" name="unconnected-(Con3-Pad30)">
+      <node ref="Con3" pin="30" pinfunction="30" pintype="passive+no_connect"/>
+    </net>
+    <net code="114" name="unconnected-(Con3-Pad31)">
+      <node ref="Con3" pin="31" pinfunction="31" pintype="passive+no_connect"/>
+    </net>
+    <net code="115" name="unconnected-(Con3-Pad32)">
+      <node ref="Con3" pin="32" pinfunction="32" pintype="passive+no_connect"/>
+    </net>
+    <net code="116" name="unconnected-(Con3-Pad33)">
+      <node ref="Con3" pin="33" pinfunction="33" pintype="passive+no_connect"/>
+    </net>
+    <net code="117" name="unconnected-(Con3-Pad42)">
+      <node ref="Con3" pin="42" pinfunction="42" pintype="passive+no_connect"/>
+    </net>
+    <net code="118" name="unconnected-(Con3-Pad44)">
+      <node ref="Con3" pin="44" pinfunction="44" pintype="passive+no_connect"/>
+    </net>
+    <net code="119" name="unconnected-(Con3-Pad46)">
+      <node ref="Con3" pin="46" pinfunction="46" pintype="passive+no_connect"/>
+    </net>
+    <net code="120" name="unconnected-(Con3-Pad48)">
+      <node ref="Con3" pin="48" pinfunction="48" pintype="passive+no_connect"/>
+    </net>
+    <net code="121" name="unconnected-(U1-Pad56)">
+      <node ref="U1" pin="56" pinfunction="SCK(opt)-PA5" pintype="input+no_connect"/>
+    </net>
+    <net code="122" name="unconnected-(U1-Pad58)">
+      <node ref="U1" pin="58" pinfunction="MISO(opt)-PA6" pintype="output+no_connect"/>
+    </net>
+    <net code="123" name="unconnected-(U1-Pad60)">
+      <node ref="U1" pin="60" pinfunction="MOSI(opt)-PA7" pintype="input+no_connect"/>
+    </net>
+    <net code="124" name="unconnected-(U1-Pad62)">
+      <node ref="U1" pin="62" pinfunction="CSN(opt)-PD14" pintype="input+no_connect"/>
+    </net>
+  </nets>
+</export>

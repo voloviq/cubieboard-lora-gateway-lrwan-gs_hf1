@@ -1,0 +1,9 @@
+(sym_lib_table
+  (lib (name "Mounting_Holes")(type "KiCad")(uri "${KICAD_SYMBOL_DIR}/Mounting_Holes/Mounting_Holes.kicad_sym")(options "")(descr ""))
+  (lib (name "power")(type "KiCad")(uri "${KICAD_SYMBOL_DIR}/Power_Signs/power.kicad_sym")(options "")(descr ""))
+  (lib (name "Header_Socket_2mm")(type "KiCad")(uri "${KICAD_SYMBOL_DIR}/Connectors/Header_Socket_2mm/Header_Socket_2mm.kicad_sym")(options "")(descr ""))
+  (lib (name "Shields")(type "KiCad")(uri "${KICAD_SYMBOL_DIR}/Shields/Shields.kicad_sym")(options "")(descr ""))
+  (lib (name "Goldpin_2_54mm")(type "KiCad")(uri "${KICAD_SYMBOL_DIR}/Goldpins/Goldpin_2.54mm/Goldpin_2_54mm.kicad_sym")(options "")(descr ""))
+  (lib (name "Smd_Connectors")(type "KiCad")(uri "${KICAD_SYMBOL_DIR}/Connectors/Smd_Connectors/Smd_Connectors.kicad_sym")(options "")(descr ""))
+  (lib (name "Capacitors_Smd0603")(type "KiCad")(uri "${KICAD_SYMBOL_DIR}/Capacitors/Smd_0603/Capacitors_Smd0603.kicad_sym")(options "")(descr ""))
+)
